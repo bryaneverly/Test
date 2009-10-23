@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="NewBryanPage.aspx" />
     <Content Include="Page2.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -66,6 +67,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NewBryanPage.aspx.cs">
+      <DependentUpon>NewBryanPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NewBryanPage.aspx.designer.cs">
+      <DependentUpon>NewBryanPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Page2.aspx.cs">
       <DependentUpon>Page2.aspx</DependentUpon>
