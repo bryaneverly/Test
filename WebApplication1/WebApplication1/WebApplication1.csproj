@@ -53,6 +53,7 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddedInMaster.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Page2.aspx" />
     <Content Include="Web.config" />
@@ -60,6 +61,13 @@
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddedInMaster.aspx.cs">
+      <DependentUpon>AddedInMaster.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddedInMaster.aspx.designer.cs">
+      <DependentUpon>AddedInMaster.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <SubType>ASPXCodeBehind</SubType>
       <DependentUpon>Default.aspx</DependentUpon>
